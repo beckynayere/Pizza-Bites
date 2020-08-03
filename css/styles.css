@@ -143,5 +143,93 @@ ul{
 /* media query to rearrange pizza divs for small screens */
 @media screen and (max-width: 720px) {
     #pizza{
+        width: 90% !important;
+        float: left !important;
+        margin-top: 2vh;
+        padding: 2vh;
+    }
+}
+/* the crust section */
+article{
+    background-color:rgba(0, 0, 255, 0.116);
+
+}
+article h3,h4{
+    text-align: center;
+    padding: 10px;
+}
+.nav-link{
+    color: black !important;
+}
+#initiallyHidden1, #initiallyHidden2{
+    display: none;
+}
+span{
+    cursor: pointer;
+}
+/* toppings section */
+.toppings{
+ justify-content: space-around;
+}
+.card-body img{
+    width: 100%;
+    border-radius: 10px;
+    height: 30vh;
+}
+.toppings .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(0, 0, 255, 0.021);
+}
+.card-footer{
+    display: flex !important;
+    justify-content: center !important;
+    /* align-items: center !important; */
+}
+/* media quaries to rearrange the toppings on different screens */
+@media screen and (max-width: 750px) {
+    #card{
+        width: 90% !important;
+        float: left !important;
+        margin-top: 2vh;
+        padding: 2vh;
+    }
+}
+/* the delivery services section */
+.jumbotron{
+    background-color:rgba(0, 0, 255, 0.116) !important;
+}
+/* order button */
+#order{
+    position: fixed;
+    top: 50vh;
+    right: 2px;
+    border: 1px solid blue !important;
+    color: black !important;
+    background-color: rgba(255, 0, 0, 0.418);
+    z-index: 1;
+}
+.myTown{
+    width: 40% !important;
+}
+/* receipt */
+.receiptMain{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.receipt{
+    width: auto;
+}
+/* footer section */
+footer{
+    background-color: rgba(0, 0, 0, 0.37);
+    margin-top: 2vh;
+    min-height: 10vh;
+    text-align: center;
+}
+.footer p{
+    padding-top: 3vh;
+}
 
     }
