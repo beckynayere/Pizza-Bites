@@ -56,7 +56,8 @@ nav-item,li,a{
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    min-height: 94vh;
+    height: 100%;
+    width: 100%;
     margin: 0px;
    
 }
@@ -94,7 +95,7 @@ main h2{
 }
 
 .pizza h2{
-    color: blue;
+    color: red;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .pizza p{
@@ -229,7 +230,8 @@ footer{
         display: flex;
         justify-content: space-evenly;
         padding: 1rem;
-        background: var(--main-gray);
+        text-align: center;
+        min-width: 10vh;
         border-top: 4px solid var(--main-red);
       }
       footer image{
@@ -242,6 +244,7 @@ footer{
       
       footer > p {
         margin: 1rem;
+        padding-top: 3vh;
       }
       
       footer i {
