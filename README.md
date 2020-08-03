@@ -1,7 +1,7 @@
 # Pizza-Bites
 
 # Home page.
-![The Home page](image/pizza-inn Nairobi Country.png)
+![The Home page](image/home.png)
 
 ### Author name: Humphrey mutuma.
 
@@ -10,7 +10,7 @@
 
 The project has a selection section   where you select the size of pizza you want to buy.
 #### Sizes of Pizza available for selection;
-![The piza size page](images/pizza-size.png)
+![The piza size page](image/pizza-size.png)
 
 - Large pizza
 - Medium Pizza
@@ -26,7 +26,7 @@ After you select the size of pizza you want, you then scroll down to select the 
 
 Next you select the toppings you would like to accompany your pizza.
 #### Types of toppings available for selection;
-![The toppings page](image/toppings.png)
+![The toppings page](image/toppings-pizza.jpg)
 
 - Bacon
 - Basil

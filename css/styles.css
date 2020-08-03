@@ -37,7 +37,7 @@ nav-item,li,a{
     margin: 0px;
 }
 /* end of nav styles */
-#section{
+/* #section{
     background-position: center;
     background-size: cover;
     min-height: 95vh;
@@ -46,8 +46,8 @@ nav-item,li,a{
     color: white;
     justify-content: center;
     align-items: center;
-    text-align: center;
-}
+    text-align: center; */
+
 
 
 #header{
@@ -56,9 +56,6 @@ nav-item,li,a{
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    height: 100%;
-    width: 100%;
-    margin: 0px;
    
 }
 #home{
