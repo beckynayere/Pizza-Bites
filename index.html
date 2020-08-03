@@ -68,7 +68,7 @@
   </nav>
   <!-- The home page  -->
   <section id="home" class="container-fluid" style="padding-top: 7.3vh;">
-    <div class="row" id="section" style="background-image:url('image/373_photo3.jpg');">
+    <div class="row" id="section" style="background-image:url('image/basil-pizza.jpg');">
       <img class="slideRight" src="image/logo.jpg" alt="mouse_click.png" srcset="">
       <h1 class="slideRight" >Welcome</h1>
       <h3 class="slideRight" >To</h3>
@@ -138,6 +138,352 @@
 </div>
 </main >
 <br id="crusts">
+<!-- type of crust section -->
+<section class="container">
+  <div class="row">
+      <div class="card text-center"  >
+          <div class="card-header">
+              <h2> <i>Make your pizza insanely yummy by adding a crust on it.</i></h2>
+              <ul class="nav nav-tabs card-header-tabs">
+                  <li class="nav-item">
+                      <span class="nav-link active" id="crust">Crispy Crust</span>
+                  </li>
+                  <li class="nav-item">
+                      <span class="nav-link" id="stuffed">Stuffed Crust</span>
+                  </li>
+                  <li class="nav-item">
+                      <span class="nav-link" id="gluten">Gluten Crust</span>
+                  </li>
+              </ul>
+          </div>
+          <!-- The crispy crust -->
+          <div class="card-body" id="initiallyShown">
+              <div class="card mb-3">
+                  <div class="row no-gutters">
+                      <div class="col-md-4">
+                          <img src="image/stuffed-crust.jpg" style="margin: 12px 6px;" min-height="250px" class="card-img" alt="stuffed crust">
+                          </div>
+                          <div class="col-md-8">
+                          <div class="card-body">
+                          <h3 class="card-title">Crispy Crust</h3>
+                          <p class="card-text">Crispy and straight out of the oven--that's the way I like my thin crust pizza. It has a nice crunch to it, and the pizza's toppings shine on their own. You won't get overpowered by a huge piece of  bread at the end of each slice. So, if you judge a pizza by the quality of its toppings, this is the best type of pizza crust for you..</p>
+                          <span name="crust" class="radioButton">
+                              <div class="custom-control custom-radio custom-control-inline">
+                                  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" value="250" checked>
+                                  <label style="zoom: 2;" class="custom-control-label" for="customRadioInline1">$ 250</label>
+                                </div>
+                          </span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- The stuffed crust-->
+          <div class="card-body" id="initiallyHidden1">
+              <div class="card mb-3">
+                  <div class="row no-gutters">
+                      <div class="col-md-4">
+                          <img src="image/thin-crust.jpg" style="margin: 12px 6px;" min-height="250px" class="card-img" alt="stuffed crust">
+                          </div>
+                          <div class="col-md-8">
+                          <div class="card-body">
+                          <h3 class="card-title"> Stuffed Crust</h3>
+                          <p class="card-text">Cheese on cheese on cheese is the perfect way to describe this type of crust. If a four-cheese pizza isn't enough for you, why not stuff some more of it into the crust? The gooey richness fulfills every cheese lover's dream. So if your heaven is a cheese shop, we have the perfect type of crust for you and it's the cheesiest around!.</p>
+                          <span name="crust" class="radioButton">
+                              <div class="custom-control custom-radio custom-control-inline">
+                                  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" value="200">
+                                  <label style="zoom: 2;" class="custom-control-label" for="customRadioInline2">$ 200</label>
+                                </div>
+                          </span>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- gutten free crust -->
+          <div class="card-body" id="initiallyHidden2">
+              <div class="card mb-3">
+                  <div class="row no-gutters">
+                      <div class="col-md-4">
+                          <img src="image/gluten-Free-crust.jpg" style="margin: 12px 6px;" min-height="250px" class="card-img" alt="stuffed crust">
+                          </div>
+                          <div class="col-md-8">
+                          <div class="card-body">
+                          <h3 class="card-title">Gluten free crust</h3>
+                          <p class="card-text">If you are looking for a hearty slice, Sicilian is certainly on the road to deep dish level pizza. It does have a hefty crust to topping ratio, so be prepared. Sicilian crust occupies the no-man's land between thin and thick, but don't question it, just take a huge bite and enjoy! Embrace Sicilian's squareness because it makes the whole pizza experience a bit less messy.  </p>
+                          <span name="crust" class="radioButton">
+                              <div class="custom-control custom-radio custom-control-inline">
+                                  <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input" value="150">
+                                  <label style="zoom: 2;" class="custom-control-label " for="customRadioInline3">$ 150</label>
+                                </div>
+                          </span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>    
+<br>
+<!-- section to choose the type of toppings -->
+<article class="container-fluid" id="toppingss">
+  <h3>Need toppings on your pizza?</h3>
+  <h4>Make your selection here.</h4>
+  <div class="row toppings" >
+       <!-- bacon card -->
+      <div id="card" class="card border-default mb-3" style="width: 30%;">
+          <div class="card-header bg-transparent border-default">Bacon</div>
+          <div class="card-body text-primary">
+              <img src="image/pizza-bacon-mushrooms.jpg"  alt="bacon" >
+              <hr>
+              <p class="card-text">Bacon goes well with anything (try us), so of course it’s a popular pizza topping. This fresh spring recipe gets salty, meaty flavor from just a few bacon crumbles.</p>
+          </div>
+          <div class="card-footer bg-transparent border-default">
+             <!-- the chechbox -->
+             <span name="toppings">
+                  <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck1" value="100" checked>
+                      <label style="zoom: 2;" class="custom-control-label" for="customCheck1">$100</label>
+                  </div>
+              </span>
+          </div>
+      </div>
+          <!-- basil card -->
+      <div id="card" class="card border-default mb-3" style="width: 30%;">
+          <div class="card-header bg-transparent border-default">Basil</div>
+          <div class="card-body text-primary">
+              <img src="image/basil-pizza.jpg"  alt="basil" >
+              <hr>
+               <p class="card-text">A few fresh basil leaves will taste amazing with any pizza. This simple summertime pizza would make a delicious cookout appetizer.</p>
+          </div>
+          <div class="card-footer bg-transparent border-default">
+             <!-- the chechbox -->
+              <span name="toppings">
+                  <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck2" value="90">
+                      <label style="zoom: 2;" class="custom-control-label" for="customCheck2">$90</label>
+                  </div>
+              </span>
+          </div>
+      </div>
+          <!-- mushroom card -->
+      <div id="card" class="card border-default mb-3" style="width: 30%;">
+          <div class="card-header bg-transparent border-default">Mushroom</div>
+          <div class="card-body text-primary">
+              <img src="image/mushroom.jpg"  alt="mushroom" >
+              <hr>
+              <p class="card-text">This earthy topping can be divisive in the kitchen, but many agree that it fits right in on a pizza, and this breakfast recipe is just perfect</p>
+          </div>
+          <div class="card-footer bg-transparent border-default">
+             <!-- the chechbox -->
+              <span name="toppings">
+                  <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck3" value="80">
+                      <label style="zoom: 2;" class="custom-control-label" for="customCheck3">$80</label>
+                  </div>
+              </span>
+          </div>
+      </div>
+  </div>
+  <br>
+  <!-- second row of toppings section -->
+  <div class="row toppings">
+      <!-- peppers card -->
+     <div id="card" class="card border-default mb-3" style="width: 30%;">
+         <div class="card-header bg-transparent border-default">Peppers</div>
+         <div class="card-body text-primary">
+             <img src="image/pepper-pizza.jpg"  alt="pepper" >
+             <hr>
+             <p class="card-text">Bacon goes well with anything (try us), so of course it’s a popular pizza topping. This fresh spring recipe gets salty, meaty flavor from just a few bacon crumbles.</p>
+         </div>
+         <div class="card-footer bg-transparent border-default">
+             <!-- the chechbox -->
+             <span name="toppings">
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck4" value="70">
+                  <label style="zoom: 2;" class="custom-control-label" for="customCheck4">$70</label>
+              </div>
+          </span>
+         </div>
+     </div>
+         <!-- pesto card -->
+     <div id="card" class="card border-default mb-3" style="width: 30%;">
+         <div class="card-header bg-transparent border-default">Pesto</div>
+         <div class="card-body text-primary">
+             <img src="image/pesto.jpg"  alt="pesto" >
+             <hr>
+              <p class="card-text">A few fresh basil leaves will taste amazing with any pizza. This simple summertime pizza would make a delicious cookout appetizer.</p>
+         </div>
+         <div class="card-footer bg-transparent border-default">
+           <!-- the chechbox -->
+          <span name="toppings">
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck5" value="60">
+                  <label style="zoom: 2;" class="custom-control-label" for="customCheck5">$60</label>
+              </div>
+          </span>
+         </div>
+     </div>
+         <!-- pineaple card -->
+     <div id="card"  class="card border-default mb-3" style="width: 30%;">
+         <div class="card-header bg-transparent border-default">Pineaple</div>
+         <div class="card-body text-primary">
+             <img src="image/hawaiian-pizza.jpg"  alt="pineaple" >
+             <hr>
+             <p class="card-text">This earthy topping can be divisive in the kitchen, but many agree that it fits right in on a pizza, and this breakfast recipe is just perfect</p>
+         </div>
+         <div class="card-footer bg-transparent border-default">
+             <!-- the chechbox -->
+          <span name="toppings">
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck6" value="50">
+                  <label style="zoom: 2;" class="custom-control-label" for="customCheck6">$50</label>
+              </div>
+          </span>
+         </div>
+     </div>
+ </div>
+</article>
+<br>
+<!-- delivery section -->
+<aside class="container" id="shortLocation">
+  <div class="row">
+      <div class="jumbotron">
+          <h3>Would you like to have your pizza delivered?</h3>
+          <p>It will take a maximum of 2 hours for deliveries within Nairobi CBD and 24hours for deliveries within 800 km radius from Nairobi. For the rest, a maximum of 48hours.</p>
+          <p>We offer countywide delivery Services.</p>
+          <hr class="my-4">
+          <h3>Select your location here </h3>
+          <div width="40% !important" >
+              <select class="custom-select custom-select-lg mb-4 deliveryLocation" id="deliverySelected">
+                  <option value="0" selected >Open this to select your location ...</option>
+                  <option value="100" >Nairobi CBD </b></option>
+                  <option value="200">Nairobi county</option>
+                  <option value="300">within 800km from Nairobi</option>
+                  <option value="400">Diaspora ( Past 800km from Nairobi)</option>
+              </select>
+          </div>
+          <!-- delivery place -->
+          <div class="input-group mb-3 myTown">
+              <div class="input-group-prepend">
+                <button onclick="deliveryPlace()" class="btn btn-outline-secondary" type="button" id="button-addon1">Submit</button>
+              </div>
+              <input id="town" type="text" class="form-control" placeholder="Enter your nearest town ..." aria-label="Example text with button addon" aria-describedby="button-addon1">
+          </div>
+          <p id="townOutput" class="text-danger"></p>
+          <!--  -->
+      </div>
+  </div>
+</aside>
+<br>
+<!-- summary section -->
+<hr>
+<aside class="container">
+  <div class="row receiptMain">
+      <div class="jumbotron receipt" id="receipt">
+          <h1><i>Receipt:</i></h1>
+          <!-- number of pizza to order -->
+          <div class="input-group mb-3 ">
+              <div class="input-group-prepend">
+                  <label class="input-group-text" for="inputGroupSelect01">Number of pizza to order:</label>
+                </div>
+              <input id="numberOfPizza" type="number" value="1" class="form-control" placeholder="Enter number of pizza ..." aria-label="Example text with button addon" aria-describedby="button-addon1">
+          </div>
+
+          <table class="table table-bordered">
+              <!-- pizza size -->
+              <thead>
+                <tr class="table-primary">
+                  <th scope="col">#</th>
+                  <th scope="col">Pizza Size</th>
+                  <th scope="col">pizza Cost</th>                    
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td id="pizzaSize">......</td>
+                  <td id="pizzaCost">.........</td>
+                </tr>
+              </tbody>
+              <!-- crust -->
+              <thead>
+                  <tr class="table-primary">
+                    <th scope="col">#</th>
+                    <th scope="col">Type of crust</th>
+                    <th scope="col">Cost of crust</th>                    
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td id="typeOfCrust">......</td>
+                    <td id="crustCost">.........</td>
+                  </tr>
+                </tbody>
+                <!-- toppings -->
+                <thead>
+                  <tr class="table-primary">
+                    <th scope="col">#</th>
+                    <th scope="col">Toppings</th>
+                    <th scope="col">Total Cost</th>                    
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td id="typesOfToppings">......</td>
+                    <td id="costOfToppings">.........</td>
+                  </tr>
+                </tbody>
+                  <!-- Delivery cost -->
+                  <thead>
+                      <tr class="table-primary">
+                        <th scope="col">#</th>
+                        <th scope="col">Delivery place</th>
+                        <th scope="col">Delivery Cost</th>                    
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td id="deliveryLocation">......</td>
+                        <td id="deliveryCost">.........</td>
+                      </tr>
+                    </tbody>
+                 <!-- total cost -->
+                 <thead>
+                  <tr class="table-success">
+                    <th scope="col">Total</th>
+                    <th scope="col">Total Cost</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"></th>
+                    <td id="totalCost">......</td>
+                  </tr>
+                </tbody>
+            </table>
+            <p id="message" class="text-success"></p>
+
+            <button class="btn btn-default" style="border: 1px solid blue;" onclick="myFunction(); myMessage()"><a href="#receipt">Place Order</a></button>
+
+      </div>
+  </div>
+</aside>
+<!-- order button -->
+<button id="order" class="btn btn-default" onclick="myFunction()"><a href="#receipt">View Order</a></button>
+
+  <!-- the footer -->
+<footer class="container-fluid">
+  <div class="row">
+      <div class="col-md-12 footer">
+          <p><i>powered by becky nayere@2020</i></p>
+      </div>
+  </div>
+</footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
