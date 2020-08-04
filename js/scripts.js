@@ -143,31 +143,31 @@ $(document).ready(function(){
       }
       // Determine the selected toppings
       var myBacon,myBasil,myMushroom,myPeppers,myPesto,myPineaple
-      if(bacon == 100){
+      if(bacon == 1050){
            myBacon = "Bacon, "
       }else {
            myBacon = " "
       }
-       if(basil == 90){
+       if(basil == 950){
            myBasil = " Basil, "
       }else{
            myBasil = " "
       }
-       if(mushroom == 80){
+       if(mushroom == 850){
            myMushroom = "Mushroom, "
       }else {
            myMushroom = " "
       }
-       if(peppers == 70){
+       if(peppers == 700){
            myPeppers = " Peppers, "
       }else {
            myPeppers = " "  
       }
-      if(pesto == 60){
+      if(pesto == 700){
            myPesto = " Pesto, "
       }else {
           myPesto = " "
-      } if(pineaple == 50){
+      } if(pineaple == 350){
            myPineaple = " Pineaple "
       }else {
           myPineaple = " "
