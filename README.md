@@ -28,11 +28,13 @@ Next you select the toppings you would like to accompany your pizza.
 #### Types of toppings available for selection;
 ![The toppings page](image/toppings-pizza.jpg)
 
+- Pineapple
+- Vegetables
 - Bacon
 - Basil
 - Mushroom
-- peppers
-- pesto
+- Peppers
+- Pesto
 - Pineaple
 
 
@@ -43,13 +45,13 @@ If you would like to have your pizza delivered, you select your location from a 
 
 The summary of all your selected item and delivery location is in the receipt.
 
-# Receipt
+# Menu
 
 This is a table that is showing a summary of all the  selections made with the cost of each selected item and the cumulative cost at the bottom.
 
-You will select the number of pizza you would like to order here.
+You  select the pizza ordered here.
 ##### Note: It is assumed all pizza will have a crust.
-![The receipt ](image/receipt.png)
+![The menu ]
 
 # BDD
 
@@ -69,13 +71,13 @@ You will select the number of pizza you would like to order here.
 |Delivery location  | The location that you will input will be displayed and the relative cost depending on the approximate location selected.|
 |Total cost  | The total cost of the selected items will be shown at the bottom of the receipt |
 ### Technologies used;
-> HTML
+> Bootstrap
 
-> CSS
+> JavaScript
 
 >Bootstrap
 
->JavaScript
+>HTML
 
 > JQuery
 
