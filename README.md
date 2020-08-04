@@ -3,7 +3,7 @@
 # Home page.
 ![The Home page](image/home.png)
 
-### Author name: Humphrey mutuma.
+### Author name: Becky Nayere
 
 #### Project description:
 ### This is a pizza ordering system. 
