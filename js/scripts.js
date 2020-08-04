@@ -188,7 +188,7 @@ $(document).ready(function(){
        }
 } 
 
-// function to return the nearest town for delivery
+// function to return the pizza shop for delivery
 
 function deliveryPlace(){
   var town = document.getElementById("town").value;
