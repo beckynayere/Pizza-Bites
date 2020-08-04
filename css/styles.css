@@ -37,17 +37,6 @@ nav-item,li,a{
     margin: 0px;
 }
 /* end of nav styles */
-/* #section{
-    background-position: center;
-    background-size: cover;
-    min-height: 95vh;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    text-align: center; */
-
 
 
 #header{
@@ -251,16 +240,38 @@ footer{
       footer i {
         vertical-align: middle;
       }
+
+      .googleMap{
+        width: 100%;
+        height: 300px;
+      }
+      .list-inline-item{
+        float: left !important;
+    /* }
+    .myList{
+        width: 100%;
+       margin: 5vh auto;
+       justify-content: center;
+       display: flex;
+         */
+    }
+    .footer{
+        width: 100%;
+        margin: auto !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
       
       @media (max-width: 28.75em) {
         footer {
           flex-direction: column;
           text-align: center;
         }
-.googleMap{
-    width: 100%;
-    height: 300px;
+
 }
 
     
-    }
+    
