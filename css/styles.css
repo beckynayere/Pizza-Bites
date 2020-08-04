@@ -178,7 +178,7 @@ span{
 }
 .toppings .card:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgba(0, 0, 255, 0.021);
+    background-color: rgba(0, 0, 254, 0.020);
 }
 .card-footer{
     display: flex !important;
@@ -203,7 +203,7 @@ span{
     position: fixed;
     top: 50vh;
     right: 2px;
-    border: 1px solid blue !important;
+    border: 1px solid yellowgreen !important;
     color: black !important;
     background-color: rgba(255, 0, 0, 0.418);
     z-index: 1;
@@ -211,14 +211,14 @@ span{
 .myTown{
     width: 40% !important;
 }
-/* receipt */
+/* menu*/
 .receiptMain{
     width: 100%;
     display: flex;
     justify-content: space-around;
 
 }
-.receipt{
+.menu{
     width: auto;
 }
 /* footer section */
