@@ -10,7 +10,7 @@
 
 The project has a selection section   where you select the size of pizza you want to buy.
 #### Sizes of Pizza available for selection;
-![The piza size page](image/pizza-size.png)
+![The piza size page](image/medium-pizza.png)
 
 - Large pizza
 - Medium Pizza
@@ -18,7 +18,7 @@ The project has a selection section   where you select the size of pizza you wan
 
 After you select the size of pizza you want, you then scroll down to select the type of crust you would like added to your pizza.
 #### Types of Crust available for selection;
-![The crust page](image/crust.png)
+![The crust page](image/stuffed-crust.png)
 
 - Crispy crust
 - Stuffed crust
